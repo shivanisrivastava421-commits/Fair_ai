@@ -3,3 +3,4 @@ uvicorn
 pandas
 scikit-learn
 fairlearn
+scipy==1.10.1
