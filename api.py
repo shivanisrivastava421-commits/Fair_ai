@@ -2,6 +2,10 @@ import sys
 import os
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+from services.analysis import generate_response
+from services.model import train_model
+from services.fairness import compute_fairness
 from fastapi import FastAPI
 from pydantic import BaseModel
 from services.analysis import generate_response
