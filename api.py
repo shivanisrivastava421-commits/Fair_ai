@@ -8,7 +8,6 @@ from services.model import train_model
 from services.fairness import compute_fairness
 from fastapi import FastAPI
 from pydantic import BaseModel
-from services.analysis import generate_response
 
 # APP INIT
 app = FastAPI(
